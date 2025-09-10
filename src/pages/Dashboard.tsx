@@ -45,7 +45,7 @@ const Dashboard = () => {
     <div className="space-y-6 animate-fade-in-up">
       {/* Welcome Header */}
       <div className="gradient-hero rounded-xl p-8 text-white shadow-medium">
-        <h2 className="text-3xl font-bold mb-2">Welcome to EduTrack Pro</h2>
+        <h2 className="text-3xl font-bold mb-2">Welcome to Edu+</h2>
         <p className="text-xl opacity-90">
           Your comprehensive educational management dashboard
         </p>

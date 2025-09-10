@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { 
-  BookOpen,
+  LaptopMinimalCheck,
   Users,
   Calendar,
   Camera,
@@ -34,8 +34,8 @@ const Layout = ({ children }: LayoutProps) => {
         {/* Logo Header */}
         <div className="flex h-16 items-center justify-center border-b border-border gradient-hero">
           <div className="flex items-center space-x-3">
-            <BookOpen className="h-8 w-8 text-white" />
-            <span className="text-xl font-bold text-white">EduTrack Pro</span>
+            <LaptopMinimalCheck className="h-8 w-8 text-white" />
+            <span className="text-xl font-bold text-white">Edu+</span>
           </div>
         </div>
 
@@ -86,11 +86,14 @@ const Layout = ({ children }: LayoutProps) => {
         {/* Header */}
         <header className="h-16 bg-card shadow-soft flex items-center justify-between px-6 border-b border-border">
           <div>
-            <h1 className="text-xl font-semibold text-foreground">
-              Educational Management System
+            <h1 className="text-2xl font-extrabold text-primary flex items-center gap-2 tracking-tight">
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent drop-shadow-md">
+              Edu+
+              </span>
+                <span className="text-lg text-success animate-bounce">✔️</span>
             </h1>
             <p className="text-sm text-muted-foreground">
-              Automated attendance and student development platform
+              A smart solution that automates attendance and turns free periods into personalized growth opportunities
             </p>
           </div>
           
